@@ -1,3 +1,7 @@
+body{
+    background-color: #fdfdfd;
+}
+
 .navbar .navbar-nav {
     display: flex;
     
@@ -6,4 +10,8 @@
 .navbar .navbar-nav button{
     justify-self: flex-end;
     
+}
+
+#header .col-7{
+    padding-right: 0;
 }
