@@ -1,0 +1,9 @@
+.navbar .navbar-nav {
+    display: flex;
+    
+}
+
+.navbar .navbar-nav button{
+    justify-self: flex-end;
+    
+}
