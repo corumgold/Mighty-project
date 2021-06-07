@@ -1,5 +1,6 @@
 body{
     background-color: #fdfdfd;
+    font: open-sans;
 }
 
 .navbar .navbar-nav {
@@ -12,6 +13,20 @@ body{
     
 }
 
+#header{
+    line-height: 2;
+}
+
 #header .col-7{
     padding-right: 0;
+    font-size: 38px;
+}
+
+#header h1{
+    font-weight: 700;
+}
+
+#header .col-5{
+    margin-top: auto;
+    margin-bottom: auto;
 }
