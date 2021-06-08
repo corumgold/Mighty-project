@@ -1,54 +1,76 @@
-body{
+body {
     background-color: #fdfdfd;
-    font: open-sans;
-    font-family: 'Merriweather Sans', sans-serif;
+    font            : open-sans;
+    font-family     : 'Merriweather Sans', sans-serif;
 }
 
 .navbar .navbar-nav {
     display: flex;
-    
+
 }
 
-.navbar .navbar-nav button{
+.navbar .navbar-nav button {
     justify-self: flex-end;
-    
+
 }
 
-#header{
+#header {
     line-height: 2;
 }
 
-#header h1{
-    font-weight: 700;
-    font-size: 40px;
+#header h1 {
+    font-weight   : 700;
+    font-size     : 40px;
     letter-spacing: 1px;
 }
 
-#header p{
-    font-weight: 300;
+#header p {
+    font-weight: 100;
     line-height: 1.5;
 }
 
-#header .col-7{
+#header .col-7 {
     padding-right: 0;
-    font-size: 38px;
+    font-size    : 38px;
 }
 
-#header .col-5{
-    margin-top: auto;
+#header .col-5 {
+    margin-top   : auto;
     margin-bottom: auto;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #0dd26a;
-    border: none;
-    padding: 10px 30px;
-    letter-spacing: 1px;
-    font-weight: 600;
+    border          : none;
+    padding         : 10px 30px;
+    letter-spacing  : 1px;
+    font-weight     : 600;
 }
 
-#program-features img{
-    width: 75px;
-    height: auto;
-    }
+#program-features{
+    text-align: center;
 }
+
+.feature-blurb{
+    height: 250px;
+}
+
+#program-features h2{
+    font-size: 28px;
+}
+
+#program-features h3{
+    font-size: 18px;
+}
+
+#program-features p{
+    font-size: 16px;
+    font-weight: 100;
+}
+
+#program-features img {
+    width : 75px;
+    height: auto;
+    padding-bottom: 40px;
+}
+
