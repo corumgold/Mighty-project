@@ -46,3 +46,9 @@ body{
     letter-spacing: 1px;
     font-weight: 600;
 }
+
+#program-features img{
+    width: 75px;
+    height: auto;
+    }
+}
