@@ -119,3 +119,21 @@ h2 {
 .testimonial p {
     margin-bottom: 0px;
 }
+
+#security-blurb{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 400px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    box-shadow        : 1px 1px 7px 1px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow   : 1px 1px 7px 1px rgba(0, 0, 0, 0.16);
+}
+
+#security-blurb img{
+    width: 300px;
+}
