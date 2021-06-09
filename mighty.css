@@ -74,14 +74,27 @@ h2{
     padding-bottom: 40px;
 }
 
+#client-testimonials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+}
+
 .testimonial{
     text-align: center;
     font-weight: 300;
+    padding-bottom: 50px;
+}
+
+.testimonial:first-of-type{
+    padding-top: 15px;
 }
 
 .quote{
     font-style: italic;
     font-weight: 200;
+    padding-bottom: 20px;
 }
 
 .quote-author{
@@ -90,4 +103,8 @@ h2{
 
 .testimonial span{
     font-size: 14px;
+}
+
+.testimonial p{
+    margin-bottom: 0px;
 }
