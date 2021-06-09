@@ -45,66 +45,77 @@ body {
     padding         : 10px 30px;
     letter-spacing  : 1px;
     font-weight     : 600;
+    transition: 300ms;
 }
 
-#program-features{
+.btn-primary:hover {
+    transform: translate(0, -1px);
+    background-color  : #0dd26a;
+    box-shadow        : 1px 1px 7px 1px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow   : 1px 1px 7px 1px rgba(0, 0, 0, 0.16);
+
+
+}
+
+#program-features {
     text-align: center;
 }
 
-.feature-blurb{
+.feature-blurb {
     height: 250px;
 }
 
-h2{
+h2 {
     font-size: 28px;
 }
 
-#program-features h3{
+#program-features h3 {
     font-size: 18px;
 }
 
-#program-features p{
-    font-size: 16px;
+#program-features p {
+    font-size  : 16px;
     font-weight: 100;
 }
 
 #program-features img {
-    width : 75px;
-    height: auto;
+    width         : 75px;
+    height        : auto;
     padding-bottom: 40px;
 }
 
-#client-testimonials{
-    display: flex;
-    flex-direction: column;
+#client-testimonials {
+    display        : flex;
+    flex-direction : column;
     justify-content: center;
-    width: 75%;
+    width          : 75%;
 }
 
-.testimonial{
-    text-align: center;
-    font-weight: 300;
+.testimonial {
+    text-align    : center;
+    font-weight   : 300;
     padding-bottom: 50px;
 }
 
-.testimonial:first-of-type{
+.testimonial:first-of-type {
     padding-top: 15px;
 }
 
-.quote{
-    font-style: italic;
-    font-weight: 200;
+.quote {
+    font-style    : italic;
+    font-weight   : 200;
     padding-bottom: 20px;
 }
 
-.quote-author{
+.quote-author {
     font-weight: 500;
 }
 
-.testimonial span{
+.testimonial span {
     font-size: 14px;
 }
 
-.testimonial p{
+.testimonial p {
     margin-bottom: 0px;
 }
