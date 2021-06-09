@@ -55,7 +55,7 @@ body {
     height: 250px;
 }
 
-#program-features h2{
+h2{
     font-size: 28px;
 }
 
@@ -74,3 +74,20 @@ body {
     padding-bottom: 40px;
 }
 
+.testimonial{
+    text-align: center;
+    font-weight: 300;
+}
+
+.quote{
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quote-author{
+    font-weight: 500;
+}
+
+.testimonial span{
+    font-size: 14px;
+}
