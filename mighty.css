@@ -45,11 +45,11 @@ body {
     padding         : 10px 30px;
     letter-spacing  : 1px;
     font-weight     : 600;
-    transition: 300ms;
+    transition      : 300ms;
 }
 
 .btn-primary:hover {
-    transform: translate(0, -1px);
+    transform         : translate(0, -1px);
     background-color  : #0dd26a;
     box-shadow        : 1px 1px 7px 1px rgba(0, 0, 0, 0.16);
     -webkit-box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.16);
@@ -120,20 +120,40 @@ h2 {
     margin-bottom: 0px;
 }
 
-#security-blurb{
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    height: 400px;
-    width: 50%;
-    align-items: center;
-    justify-content: center;
+#security-blurb {
+    border-radius     : 5px;
+    font-weight       : 300;
+    display           : flex;
+    flex-direction    : column;
+    text-align        : center;
+    height            : 400px;
+    width             : 55%;
+    align-items       : center;
+    justify-content   : center;
     box-shadow        : 1px 1px 7px 1px rgba(0, 0, 0, 0.16);
     -webkit-box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.16);
     -moz-box-shadow   : 1px 1px 7px 1px rgba(0, 0, 0, 0.16);
+    margin-bottom     : 50px;
 }
 
-#security-blurb img{
-    width: 300px;
+#security-blurb h2 {
+    font-size  : 40px;
+    font-weight: 700;
+}
+
+#security-blurb span {
+    color         : #0dd26a;
+    font-weight   : bold;
+    font-size     : 12px;
+    display       : block;
+    padding-bottom: 20px;
+}
+
+#security-blurb a {
+    color: #0dd26a;
+}
+
+#security-blurb img {
+    width      : 300px;
+    padding-top: 40px;
 }
