@@ -4,7 +4,7 @@ body {
     font-family     : 'Merriweather Sans', sans-serif;
 }
 
-.navbar .navbar-nav {
+/* .navbar .navbar-nav {
     display: flex;
 
 }
@@ -12,7 +12,7 @@ body {
 .navbar .navbar-nav button {
     justify-self: flex-end;
 
-}
+} */
 
 #header {
     line-height: 2;
