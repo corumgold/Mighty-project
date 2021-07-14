@@ -16,6 +16,7 @@ body {
 
 #header {
     line-height: 2;
+    padding-bottom: 8em;
 }
 
 #header h1 {
@@ -60,6 +61,11 @@ body {
 
 #program-features {
     text-align: center;
+    padding-bottom: 15em;
+}
+
+#program-features h2{
+    padding-bottom: 1.5em;
 }
 
 .feature-blurb {
@@ -156,4 +162,8 @@ h2 {
 #security-blurb img {
     width      : 300px;
     padding-top: 40px;
+}
+
+.form{
+    width: 20em;
 }

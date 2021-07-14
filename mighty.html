@@ -53,8 +53,8 @@
         </nav>
     </div>
 
-    <div class="container-fluid pb-5">
-        <div id="header" class="row">
+    <div id="header" class="container-fluid">
+        <div class="row">
             <div class="col-5">
                 <h1>Manage personal injury liens without the headache.</h1>
                 <p>Mighty helps lienholders and law firms work better together, without all of the emails, phone calls,
@@ -67,39 +67,39 @@
         </div>
     </div>
 
-    <div class="container-fluid d-flex flex-column justify-content-center" id="program-features">
+    <div id="program-features" class="container-fluid">
         <div class="row">
-            <div class="col text-center pb-4">
+            <div class="col">
                 <h2>Providers, funders, and other lienholders get a free portal to enable:</h2>
             </div>
         </div>
         <div class="row">
-            <div class="feature-blurb col-4 d-flex flex-column align-items-center">
+            <div class="feature-blurb col-4">
                 <img src="papers.svg" alt="papers image">
                 <h3>Get case status updates</h3>
                 <p>See the latest status of cases you have an interest in</p>
             </div>
-            <div class="feature-blurb col-4 d-flex flex-column align-items-center">
+            <div class="feature-blurb col-4">
                 <img src="secure.svg" alt="lock image">
                 <h3>Secure document sharing</h3>
                 <p>Provide law firms easy access to your bills and records in one organized place -all HIPAA compliant
                     and secure</p>
             </div>
-            <div class="feature-blurb col-4 d-flex flex-column align-items-center">
+            <div class="feature-blurb col-4">
                 <img src="remember.svg" alt="finger with string image">
                 <h3>Be loved by law firms</h3>
                 <p>Not only will Mighty save you time, but it will save the law firms you work with time too</p>
             </div>
         </div>
         <div class="row">
-            <div class="col d-flex justify-content-center pb-5">
+            <div class="col">
                 <button type="button" class="btn btn-primary">Learn more about the benefits for lienholders</button>
             </div>
         </div>
     </div>
 
     <div id="client-testimonials" class="container">
-        <h2 class="text-center">See What They're Saying About Mighty</h2>
+        <h2>See What They're Saying About Mighty</h2>
         <div class="testimonial">
             <p class="quote">“Mighty saved our practice thousands of dollars on one case alone. We got a
                 notification that the case was settled, but the law firm accidentally paid the wrong lienholder. If it
@@ -167,30 +167,29 @@
                 <h2>Get Started</h2>
                 <p>Tell us about yourself</p>
                 <form>
-                    <div class="form-row">
-                        <div class="col-md-4 mb-3">
+                    <div class="form">
+                        <div class="col">
                             <label for="inputFirstName">First name</label>
                             <input type="text" class="form-control" id="inputFirstName" required>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col">
                             <label for="inputLastName">Last name</label>
                             <input type="text" class="form-control" id="inputLastName" required>
                         </div>
-                        <div class="form-row">
-                            <div class="col-md-4 mb-3">
-                                <label for="inputEmail">Email</label>
-                                <input type="email" class="form-control" id="inputEmail" required>
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <label for="inputPhone">Phone</label>
-                                <input type="text" class="form-control" id="inputPhone" required>
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <label for="inputCompany">Company Name</label>
-                                <input type="text" class="form-control" id="inputCompany" required>
-                            </div>
+
+                        <div class="col">
+                            <label for="inputEmail">Email</label>
+                            <input type="email" class="form-control" id="inputEmail" required>
                         </div>
-                        <div class="form-group col-md-4 mb-3">
+                        <div class="col">
+                            <label for="inputPhone">Phone</label>
+                            <input type="text" class="form-control" id="inputPhone" required>
+                        </div>
+                        <div class="col">
+                            <label for="inputCompany">Company Name</label>
+                            <input type="text" class="form-control" id="inputCompany" required>
+                        </div>
+                        <div class="form-group">
                             <label for="formControlSelect">Company Type</label>
                             <select class="form-control" id="formControlSelect">
                                 <option>Medical Practice</option>
