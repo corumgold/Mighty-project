@@ -98,6 +98,10 @@ h2 {
     width          : 75%;
 }
 
+#client-testimonials h2{
+    text-align: center;
+}
+
 .testimonial {
     text-align    : center;
     font-weight   : 300;
